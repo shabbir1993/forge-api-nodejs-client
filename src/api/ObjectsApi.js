@@ -557,8 +557,6 @@ module.exports = (function() {
       var headerParams = {
         'Content-Length': contentLength,
         'Content-Range': contentRange,
-        'Content-Disposition': opts['contentDisposition'],
-        'If-Match': opts['ifMatch'],
         'Session-Id': sessionId
       };
       var formParams = {
